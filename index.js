@@ -1,10 +1,18 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  if (word === reversify(word)){
+    return true
+  } else{
+    return false
+  }
 }
 
 /* 
   Add your pseudocode here
 */
+
+function reversify(string) {
+  return string.split("").reverse().join("")
+}
 
 /*
   Add written explanation of your solution here
